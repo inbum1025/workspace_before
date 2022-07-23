@@ -1,0 +1,22 @@
+.span-info__friends {
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.05);
+	padding: 8px 0;
+}
+.span-info__friends > span {
+	color: rgba(0, 0, 0, 0.8);
+	margin: 0 5px;
+}
+.span-info__friends i {
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.friends-screen__channel {
+	display: flex;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	color: rgba(0, 0, 0, 0.2);
+	justify-content: space-between;
+	margin: 10px 0;
+	padding: 5px 0;
+	font-weight: 500;
+}

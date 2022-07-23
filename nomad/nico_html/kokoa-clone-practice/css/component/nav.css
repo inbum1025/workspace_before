@@ -1,0 +1,32 @@
+.nav {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	padding: 17px 40px;
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+	box-sizing: border-box;
+}
+
+.nav__list {
+	display: flex;
+	justify-content: space-between;
+}
+.nav__link {
+	position: relative;
+}
+i {
+	font-size: 20px;
+}
+.nav__number {
+	position: absolute;
+	right: -10px;
+	top: -15px;
+}
+.nav__ellipsis--on {
+	width: 6px;
+	height: 6px;
+	background-color: tomato;
+	border-radius: 3px;
+	position: absolute;
+	right: -5px;
+}

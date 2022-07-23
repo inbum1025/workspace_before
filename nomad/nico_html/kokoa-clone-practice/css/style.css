@@ -1,0 +1,25 @@
+@import "basic/reset.css";
+@import "basic/variable.css";
+
+/* 계속 쓰는 요소들 */
+@import "component/alt-header.css";
+@import "component/status-bar.css";
+@import "component/nav.css";
+
+@import "component/screen-header.css";
+@import "component/user-component.css";
+@import "component/badge.css";
+
+/* 그 페이지 링크들 */
+@import "login.css";
+@import "friends.css";
+@import "find.css";
+@import "more.css";
+@import "settings.css";
+@import "chat.css";
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	height: 200vh;
+}

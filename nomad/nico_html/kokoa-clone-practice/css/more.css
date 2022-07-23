@@ -1,0 +1,38 @@
+.more-component h3 i {
+	color: tomato;
+}
+
+.more-component .user-component__column-chat i {
+	color: black;
+}
+
+.more-suggestions {
+	padding: 25px 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+/* icons */
+.icon-row {
+	display: flex;
+	justify-content: space-between;
+	margin: 50px 20px;
+}
+
+.icon-row__icon {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.icon-row__icon span {
+	margin-top: 10px;
+	color: var(--gray__text);
+}
+
+.more-suggestions__icon {
+	display: flex;
+}
+.more-suggestions__icon > .icon-row__icon {
+	margin-right: 420px;
+}

@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Welcome to KokoaTalk</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No service</span>
+                <i class="fas fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <span>11%</span>
+                <i class="fas fa-battery-full"></i>
+                <i class="fas fa-bolt"></i>
+            </div>
+
+        </div>
+
+        <header class="welcome-header">
+            <h1 class="welcom-header__title">Welcome to KokoaTalk</h1>
+            <p class="welcom-header__text">if you have a Kakao Acoount,<br>
+                log in with your email or phone number.
+            </p>
+        </header>
+
+        <form action="friends.html" target="_blank" method="get">  
+
+            <input name="username" required type="text" placeholder="Email or phone number"/>
+            <input name="password" required type="password" placeholder="password"/>
+            <button type="submit">Log in</button>
+            <button type="submit">Sign Up</button>
+            <a class="login__link" href="#">Find Kakao Account or PAssword</a>
+
+        </form>
+    
+        <script
+         src="https://kit.fontawesome.com/6478f529f2.js"
+         crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
+

@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="kr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Friends-KokoaTalk</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+
+	<body>
+		<div class="status-bar">
+			<div class="status-bar__column">
+				<span>No service</span>
+				<i class="fas fa-wifi fa-sm"></i>
+			</div>
+			<div class="status-bar__column">
+				<span>18:43</span>
+			</div>
+			<div class="status-bar__column">
+				<span>11%</span>
+				<i class="fas fa-battery-full fa-sm"></i>
+				<i class="fas fa-bolt fa-sm"></i>
+			</div>
+		</div>
+
+		<header class="screen-header">
+			<h1 class="screen-header__title">Friends</h1>
+			<div class="screen-header__icon">
+				<span class="screen-header__icon-solo">
+					<i class="fas fa-search fa-sm"></i>
+				</span>
+				<span class="screen-header__icon-solo">
+					<i class="fas fa-music fa-sm"></i>
+				</span>
+				<span class="screen-header__icon-solo">
+					<a href="settings.html" target="_blank">
+						<i class="fas fa-cog fa-sm"></i>
+					</a>
+				</span>
+			</div>
+		</header>
+
+		<div class="span-info__friends">
+			<i class="fas fa-info-circle fa-sm"></i>
+			<span>Friends'Names Display</span>
+			<i class="fas fa-chevron-right fa-xs"></i>
+		</div>
+
+		<main class="main-screen">
+			<div class="user-component">
+				<div class="user-component__column">
+					<img src="#" class="user-component__img" />
+					<div class="user-component__name">
+						<h2 class="user-component__title">Inbum</h2>
+						<!-- <h3 class="user-component__subtitle">asd</h2> -->
+					</div>
+				</div>
+				<div class="user-component__column"></div>
+			</div>
+
+			<div class="friends-screen__channel">
+				<span>Channel</span>
+				<i class="fas fa-chevron-up fa-xs"></i>
+			</div>
+
+			<div class="user-component">
+				<div class="user-component__column">
+					<img
+						src="screenshots/kakao__ch.png"
+						class="user-component__img user-component__img-channel"
+					/>
+					<div class="user-component__name">
+						<h2 class="user-component__title user-component__title-channel">
+							Channel
+						</h2>
+						<!-- <h3 class="user-component__subtitle">asd</h2> -->
+					</div>
+				</div>
+
+				<div class="user-component__column">
+					<i class="fas fa-chevron-right fa-xs"></i>
+				</div>
+			</div>
+		</main>
+
+		<nav class="nav">
+			<ul class="nav__list">
+				<li class="nav__icon">
+					<a class="nav__link" href="friends.html"
+						><i class="fas fa-user"></i
+					></a>
+				</li>
+				<li class="nav__icon">
+					<a class="nav__link" href="chats.html">
+						<span class="nav__number badge">1</span>
+						<i class="far fa-comment"></i>
+					</a>
+				</li>
+				<li class="nav__icon">
+					<a class="nav__link" href="find.html"
+						><i class="fas fa-search"></i
+					></a>
+				</li>
+				<li class="nav__icon">
+					<a class="nav__link" href="#">
+						<div class="nav__ellipsis--on"></div>
+						<i class="fas fa-ellipsis-h"></i>
+					</a>
+				</li>
+			</ul>
+		</nav>
+
+		<script
+			src="https://kit.fontawesome.com/6478f529f2.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
+

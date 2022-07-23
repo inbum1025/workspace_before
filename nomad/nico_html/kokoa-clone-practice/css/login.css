@@ -1,0 +1,60 @@
+/* header구문 */
+.welcome-header {
+	display: flex;
+	flex-direction: column;
+	margin: 60px 0;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.welcom-header__title {
+	padding: 30px 0;
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.welcom-header__text {
+	font-size: 22px;
+	opacity: 0.7;
+}
+
+/* form 구문 */
+form {
+	display: flex;
+	flex-direction: column;
+	margin: 0 100px;
+	text-align: center;
+}
+input {
+	font-size: 20px;
+	padding: 17px 0;
+	border: none;
+	border-bottom: 1px solid black;
+}
+input::placeholder {
+	color: rgba(0, 0, 0, 0.4);
+}
+
+button {
+	top: 500px;
+	font-size: 18px;
+	margin-top: 40px;
+	padding: 15px 0;
+	border-radius: 10px;
+	border: none;
+	background-color: yellow;
+	cursor: pointer;
+}
+button:nth-of-type(2) {
+	margin-top: 10px;
+	background-color: slategrey;
+}
+
+a {
+	margin-top: 10px;
+	color: black;
+}
+.login__link:hover {
+	color: brown;
+}
